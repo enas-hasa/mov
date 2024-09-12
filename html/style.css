@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    
+    background-color: rgb(250, 115, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  padding: 10px 50px;
+}
+.logo{
+    width: 80px;
+}
+.header-link a{
+ color: white;
+ padding: 5px 25px;
+ text-decoration: none;
+ border-radius: 15px;
+}
+.header-link a:hover{
+   background-color:  rgb(245, 71, 158);
+}
+.but{
+    background-color: rgb(111, 157, 242);
+    border-radius: 15px;
+    padding: 5px 25px;
+    color: white;
+    border: none;
+}
+.but:hover{
+    background-color:rgb(92, 144, 241);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.header-link button:hover{
+    background-color:rgb(92, 144, 241);
+}
+.landing-page{
+    background-color: rgb(250, 115, 214);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: white;
+    border-radius:0 0 50px 50px;
+}
+.Search input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding:0 10px ;
+}
+.Search button{
+    position: absolute;
+    left: 200px;
+    height: 30px;
+    
+
+}
+.Search button:hover{
+    background-color:rgb(92, 144, 241);
+}
+.image img{
+    border-radius: 20px;
+    width: 250px;
+}
+.landing-page-section {
+    width: 400px;
+}
+.trending{
+    padding: 25px 50px;
+   
+}
+.trending span{
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.trendingHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trendingHeader h1{
+    padding-top:0 ;
+}
+.card{
+    display: flex;
+    width: 200px;
+    background-color: white;
+    border-radius:20px ;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-right: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.card .them{
+    border-radius: 20px 20px 0 0;
+ 
+}
+.card-info{
+display: flex;
+justify-content: space-between;
+padding:5px 25px ;
+align-items: center;
+
+
+
+}
+
+.card-info a img{
+    width: 50px;
+ 
+}
+.card-info a:hover{
+  
+    background-color:rgb(99, 149, 244);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.card img{
+    width: 200px;
+  
+}
+.trending-cards{
+   display: flex; 
+   gap: 12px;
+}
+.
+ 
+
+
+
+
